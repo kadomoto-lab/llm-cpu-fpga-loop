@@ -74,4 +74,6 @@ The original experiment used a Nexys Video (Artix-7 XC7A200T), Windows Vivado
 2024.2, and a WSL2 host. The final design's memory map has 32 KiB of instruction
 memory and 64 KiB of data memory. UART output uses 115200 baud, 8N1.
 
+The RTL source files under `rtl/` are available under the [MIT License](rtl/LICENSE).
+This license does not apply to the conversation records or other documentation.
 See [NOTICE.md](NOTICE.md) for source attribution.
