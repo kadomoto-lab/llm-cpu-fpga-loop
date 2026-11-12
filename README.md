@@ -1,7 +1,10 @@
 # LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation
 
+[![arXiv](https://img.shields.io/badge/arXiv-2610.39570-b31b1b.svg)](https://arxiv.org/abs/2610.39570)
+
 Conversation records and RTL snapshots accompanying the paper by
-Leo Itoh and Junichiro Kadomoto, The University of Tokyo.
+Leo Itoh and Junichiro Kadomoto, The University of Tokyo
+([arXiv:2610.39570](https://arxiv.org/abs/2610.39570)).
 
 ## Contents
 
@@ -77,3 +80,23 @@ memory and 64 KiB of data memory. UART output uses 115200 baud, 8N1.
 The RTL source files under `rtl/` are available under the [MIT License](rtl/LICENSE).
 This license does not apply to the conversation records or other documentation.
 See [NOTICE.md](NOTICE.md) for source attribution.
+
+## Citation
+
+If you use this code or the recorded experiments, please cite:
+
+```bibtex
+@misc{itoh2026fpgaloop,
+  title         = {LLM Agent-Based Design of {RISC-V} CPUs with {FPGA}-in-the-Loop Evaluation},
+  author        = {Itoh, Leo and Kadomoto, Junichiro},
+  year          = {2026},
+  eprint        = {2610.39570},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AR},
+  doi           = {10.48550/arXiv.2610.39570},
+  url           = {https://arxiv.org/abs/2610.39570},
+  note          = {Submitted to IEEE ISCAS 2027}
+}
+```
+
+Machine-readable metadata is in [CITATION.cff](CITATION.cff).

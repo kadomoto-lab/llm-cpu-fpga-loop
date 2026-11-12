@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+type: software
+message: >-
+  If you use this code or the recorded experiments, please cite the paper below.
+title: >-
+  LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation
+authors:
+  - family-names: Itoh
+    given-names: Leo
+    affiliation: The University of Tokyo
+  - family-names: Kadomoto
+    given-names: Junichiro
+    affiliation: The University of Tokyo
+abstract: >-
+  A development environment in which LLM agents implement CPU candidates on an
+  FPGA and use on-board performance measurements to guide design decisions,
+  applied to the human-supervised development of a single-cycle RV32I core into
+  a three-wide out-of-order RV32IM core. The final design reaches 5.61
+  CoreMark/MHz at 130 MHz on an Artix-7 FPGA, and FPGA evaluation was 9.6x
+  faster than single-threaded RTL simulation over 8,000 CoreMark iterations.
+  Submitted to IEEE ISCAS 2027.
+keywords:
+  - RISC-V
+  - FPGA
+  - LLM agent
+  - CPU design
+  - out-of-order execution
+  - electronic design automation
+date-released: 2026-10-29
+repository-code: https://github.com/kadomoto-lab/llm-cpu-fpga-loop
+url: https://arxiv.org/abs/2610.39570
+doi: 10.48550/arXiv.2610.39570
